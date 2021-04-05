@@ -1,0 +1,11 @@
+npx react-native init animacionesnative
+npx react-native run-android
+
+Animated.
+timing() //animacion basada en tiempo
+decay() //animacion inicia  a x velocidad pero va frenando
+spring() // auto regula su velocidad pero para llegar de un punto A a B
+parallel() //una array de animacion para iniciar al mismo tiempo
+sequence() // una serie de animacion en secunecia termina una si sigue la otra
+
+TouchableWithoutFeedback// tine 2 eventos que otros no no onPressIn and onPressOut
